@@ -1,0 +1,94 @@
+<html>
+<head>
+  <title>School Store</title>
+  <style>
+    /* CSS styling goes here */
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Register</a></li>
+      <li class="dropdown">
+        <a href="#">Department</a>
+        <div class="dropdown-content">
+          <a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a>
+          <a href="https://en.wikipedia.org/wiki/Commerce">Commerce</a>
+          <!-- Add more department Wikipedia links -->
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Home page content -->
+  <div id="home">
+    <h1>Welcome to the School Store</h1>
+    <button id="loginBtn">Login</button>
+  </div>
+
+  <!-- Login page -->
+  <div id="loginPage">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Submit">
+    </form>
+    <p>Don't have an account? <a href="#" id="registerLink">Register</a></p>
+  </div>
+
+  <!-- Register page -->
+  <div id="registerPage">
+    <h2>Register</h2>
+    <form>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="password" placeholder="Confirm Password">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- New page after login -->
+  <div id="newPage">
+    <h2>Welcome to the New Page</h2>
+    <button id="showFormBtn">Show Form</button>
+  </div>
+
+  <!-- Form -->
+  <div id="formPage">
+    <h2>Form</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="DOB">
+      <input type="text" placeholder="Age">
+      <input type="text" placeholder="Gender">
+      <input type="text" placeholder="Phone Number">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Address">
+      <select id="departmentDropdown">
+        <option value="" selected disabled>Select Department</option>
+        <option value="computerScience">Computer Science</option>
+        <option value="commerce">Commerce</option>
+        <!-- Add more departments -->
+      </select>
+      <select id="courseDropdown">
+        <option value="" selected disabled>Select Course</option>
+        <!-- Dependent options will be added dynamically using JavaScript -->
+      </select>
+      <select id="purposeDropdown">
+        <option value="" selected disabled>Select Purpose</option>
+        <option value="enquiry">For Enquiry</option>
+        <option value="order">Place Order</option>
+        <option value="return">Return</option>
+        <!-- Add more purposes -->
+      </select>
+      <label>Materials Provided:</label>
+      <input type="checkbox" value="notebook">Notebook
+      <input type="checkbox" value="pen">Pen
+      <input
+
+
+
+
